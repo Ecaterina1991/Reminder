@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav > a {
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.2em;
+  position: absolute;
+  top: 350px;
+  left: 20px;
+}
+
+body {
+  position: relative;
+  background-color: rgb(223, 223, 149);
+}
+
+.container {
+  position: absolute;
+  top: 100px;
+  left: 500px;
+  display: flex;
+  background-color: white;
+  width: 600px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.perfume {
+  flex: 1;
+  color: #541717;
+}
+
+.text {
+  width: 250px;
+  flex: 1;
+  color: rgba(0, 0, 0, 0.716);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.title {
+  position: absolute;
+  top: 20px;
+  left: 350px;
+}
+
+.gabi {
+  position: absolute;
+  top: 40px;
+  font-size: 40px;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.description {
+  position: absolute;
+  top: 190px;
+  font-size: 17px;
+  padding: 5px;
+  margin: 10px;
+  color: #541717;
+}
+
+.prices {
+  position: absolute;
+  top: 300px;
+  padding-left: 15px;
+}
+
+.new-price {
+  color: green;
+  font-size: 30px;
+  font-weight: 900;
+  font-family: sans-serif;
+}
+
+.old-price {
+  text-decoration: line-through;
+  padding-left: 10px;
+  color: #541717;
+}
+
+.button {
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 30px;
+  background-color: green;
+  position: absolute;
+  top: 370px;
+  left: 350px;
+}

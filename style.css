@@ -25,4 +25,20 @@ nav > a {
 
 .intro {
   margin: 2em 0;
+  display: flex;
+}
+
+.stanga {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.dreapta {
+  flex: 1;
+}
+
+footer {
+  font-size: 1.1em;
+  font-weight: 800;
+  padding: 25px;
 }
